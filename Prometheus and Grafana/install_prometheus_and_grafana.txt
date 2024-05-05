@@ -6,7 +6,8 @@ systemctl status prometheus
 
 Node-exporter gets installed automatically. 
 Prometheus service
-  
+Put this service file at /etc/systemd/system/prometheus.service
+
 [Unit]  
 Description=Prometheus  
 Wants=network-online.target  
