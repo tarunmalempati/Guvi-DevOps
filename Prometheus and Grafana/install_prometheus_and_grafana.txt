@@ -4,6 +4,9 @@ apt-get update -y
 apt-get install prometheus -y  
 systemctl status prometheus  
 
+Install prometheus alertmanager using the command:
+apt-get install prometheus-alertmanager -y
+
 Node-exporter gets installed automatically. 
 Prometheus service
 Put this service file at /etc/systemd/system/prometheus.service
